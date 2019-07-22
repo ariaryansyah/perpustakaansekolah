@@ -9,7 +9,6 @@ class C_barang extends CI_Controller {
 			'jumlahnya' => $this->Master_model->jumlah_barang();
 		)
 	}
-
 }
 
 /* End of file c_barang.php */
