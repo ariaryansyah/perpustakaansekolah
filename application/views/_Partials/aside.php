@@ -82,7 +82,7 @@
 
       <li class="header">Admin/Petugas</li>
       <li>
-        <a href="#">
+        <a href="<?php echo base_url() ?>index.php/ct_data_petugas/index">
           <i class="fa fa-user-plus"></i> <span>Petugas</span>
         </a>
       </li>
