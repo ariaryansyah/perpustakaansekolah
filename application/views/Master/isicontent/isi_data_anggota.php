@@ -41,9 +41,8 @@
 				                  </td>
 				                  <td>
 				                    <div class="btn-group">
-				                      <input type="submit" value="Perbaiki" class="btn btn-danger">
+				                      <input type="submit" value="verifikasi" class="btn btn-danger">
 				                      <input type="submit" value="Hapus" class="btn btn-primary">
-				                      <input type="submit" value="segarkan" class="btn btn-success">
 				                    </div>
 				                    </td><?php $no++;
 				                  endforeach; ?>

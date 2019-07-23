@@ -1,6 +1,6 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-class Web extends CI_Controller
+class c_login extends CI_Controller
 {
 
 
@@ -9,6 +9,8 @@ class Web extends CI_Controller
         session_start();
         parent::__construct();
         $this->load->model('login_model');
+        $this->load->library('form_validation');
+        $this->load->helper('url','form');
     }
     public function index()
     {
@@ -42,7 +44,7 @@ class Web extends CI_Controller
             );
 
             $frm['title'] = 'Login & Register';
-            $tmp['content'] = $this->load->view('global/login', $frm);
+            $tmp['content'] = $this->load->view('HalamanUtama/login', $frm);
         } else {
             $st = $this->session->userdata('stts');
             echo $s = $this->session->userdata('username');
@@ -60,7 +62,15 @@ class Web extends CI_Controller
         $u = $_POST['username'];
         $p = $_POST['password'];
         $this->login_model->getLoginData($u, $p);
+
     }
+// public function login()
+//     {
+//         $u = $_POST['username'];
+//         $p = $_POST['password'];
+//         $this->login_model->getLoginData($u, $p);
+//     }
+
 
     //logout
     public function logout()
