@@ -7,7 +7,7 @@
         <img src="<?php echo base_url('assets/dist/img/avatar5.png') ?>" class="img-circle" alt="User Image">
       </div>
       <div class="pull-left info">
-        <p>Users</p>
+        <p>Admin</p>
         <a href="#"><i class="fa fa-circle text-success"></i> Aktif</a>
       </div>
     </div>
@@ -48,7 +48,7 @@
         </a>
         <ul class="treeview-menu">
           <li><a href="<?php echo base_url() ?>index.php/ct_buku/index"><i class="fa fa-circle-o"></i> Data Buku</a></li>
-          <li><a href="<?php echo base_url() ?>index.php/ct_data_kelas/index"><i class="fa fa-circle-o"></i> Data Detail Buku</a></li>
+          <li><a href="<?php echo base_url('#') ?>"><i class="fa fa-circle-o"></i> Data Detail Buku</a></li>
         </ul>
       </li>
 

@@ -19,7 +19,7 @@
         <li class="dropdown user user-menu">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
             <img src="<?php echo base_url('assets/dist/img/avatar5.png') ?>" class="user-image" alt="User Image">
-            <span class="hidden-xs">Users</span>
+            <span class="hidden-xs">Admin</span>
           </a>
           <ul class="dropdown-menu">
             <!-- User image -->
@@ -28,7 +28,7 @@
               <div class="box-body box-profile">
                 <img class="profile-user-img img-responsive img-circle" src="<?php echo base_url('assets/dist/img/avatar5.png') ?>" alt="User profile picture">
 
-                <h3 class="profile-username text-center">User</h3>
+                <h3 class="profile-username text-center">Admin</h3>
 
                 <p class="text-muted text-center">Software Engineer</p>
 
