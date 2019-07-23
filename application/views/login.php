@@ -38,7 +38,7 @@
         <div class="login-box-body">
             <p class="login-box-msg">Sign in to start your session</p>
 
-            <form action="<?php echo base_url(); ?>index.php/c_login/login" method="post">
+            <form action="<?php echo base_url(); ?>index.php/HalamanUtama/index" method="post">
                 <div class="form-group has-feedback">
                     <input type="text" class="form-control" placeholder="Username" name="username">
                     <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
@@ -49,11 +49,7 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-8">
-                        <div class="checkbox icheck">
-                            <label>
-                                <input type="checkbox"> Remember Me
-                            </label>
-                        </div>
+
                     </div>
                     <!-- /.col -->
                     <div class="col-xs-4">
@@ -63,16 +59,7 @@
                 </div>
             </form>
 
-            <div class="social-auth-links text-center">
-                <p>- OR -</p>
-                <a href="#" class="btn btn-block btn-social btn-facebook btn-flat"><i class="fa fa-facebook"></i> Sign in using
-                    Facebook</a>
-                <a href="https://accounts.google.com/signin/oauth?client_id=796949826666-sr2maac7qjmaeqnfs8ffaiqnmlrjuglf.apps.googleusercontent.com&as=zAh7fPo3t8ihVrDplxTJtg&destination=https://depositphotos.com&approval_state=!ChRYeDk4ZWVlRWFqTlJEQjNlWk9QRxIfSTBCRmpGS3A2bm9ZOEhuU1JuY2dubXF1dWFqNndCWQ%E2%88%99AJDr988AAAAAXTRu0pZcCAa_T9tXDwVpZIWXnmDOBu0J&oauthgdpr=1&xsrfsig=ChkAeAh8T2b6Unzs4du5hT3Qi_HRPIZ7S5N5Eg5hcHByb3ZhbF9zdGF0ZRILZGVzdGluYXRpb24SBXNvYWN1Eg9vYXV0aHJpc2t5c2NvcGU" class="btn btn-block btn-social btn-google btn-flat"><i class="fa fa-google-plus"></i> Sign in using
-                    Google+</a>
-            </div>
-            <!-- /.social-auth-links -->
-
-            <a href="">I forgot my password</a><br>
+            
             <a href="<?php echo base_url(); ?>index.php/welcome/regis" class="text-center">Register a new membership</a>
 
         </div>

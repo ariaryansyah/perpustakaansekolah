@@ -63,7 +63,7 @@
           </span>
         </a>
         <ul class="treeview-menu">
-          <li><a href="<?php echo base_url() ?>"><i class="fa fa-book"></i> Data Peminjaman</a></li>
+          <li><a href="#"><i class="fa fa-book"></i> Data Peminjaman</a></li>
         </ul>
       </li>
 

@@ -34,6 +34,8 @@ class Master_model extends CI_Model {
     {
         $this->db->insert($tabel,$data);
     }
+
+    
     
 }
 
