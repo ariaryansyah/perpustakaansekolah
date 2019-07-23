@@ -35,7 +35,7 @@
         <ul class="treeview-menu">
           <!-- untuk hreff saya ambil dari config/router -->
           <li><a href="<?php echo base_url() ?>index.php/ct_data_anggota/index"><i class="fa fa-book"></i> Data Anggota</a></li>
-          <li><a href="<?php echo base_url('data_kelas') ?>"><i class="fa fa-building"></i> Data Kelas</a></li>
+          <li><a href="<?php echo base_url() ?>index.php/ct_data_kelas/index"><i class="fa fa-building"></i> Data Kelas</a></li>
         </ul>
       </li>
 

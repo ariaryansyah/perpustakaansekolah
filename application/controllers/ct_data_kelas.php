@@ -7,13 +7,19 @@ class Ct_data_kelas extends CI_Controller {
 	{
 		parent::__construct();
 		//Load Dependencies
+		$this->load->model('kelas_model');
+		$this->load->helper('url','form');
+		$this->load->library('form_validation');
 
 	}
 
 	// List all your items
-	public function index( $offset = 0 )
+	public function index( )
 	{
-		echo "Data kelas";
+		$data = array(
+			'data_tabel' => $this->kelas_model->getAll()
+		);
+		$this->load->view('Master/v_kelas' ,$data);
 	}
 
 	// Add a new item
