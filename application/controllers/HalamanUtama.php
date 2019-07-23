@@ -17,4 +17,8 @@ class HalamanUtama extends CI_Controller {
 	);
 		$this->load->view('Dashboard', $data);
 	}
+	public function login()
+	{
+		$this->load->view('login');
+	}
 }
