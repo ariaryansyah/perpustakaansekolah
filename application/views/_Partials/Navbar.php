@@ -18,13 +18,13 @@
                     <!-- User Account: style can be found in dropdown.less -->
                     <li class="dropdown user user-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            <img src="<?php echo base_url(); ?>assets/dist/img/aa.jpg" class="user-image" alt="User Image">
-                            <span class="hidden-xs">Ari Aryansyah</span>
+                            <img src="<?php echo base_url(); ?>assets/dist/img/avatar5.png" class="user-image" alt="User Image">
+                            <span class="hidden-xs">User</span>
                         </a>
                         <ul class="dropdown-menu">
                             <!-- User image -->
                             <li class="user-header">
-                                <img src="<?php echo base_url(); ?>assets/dist/img/aa.jpg" class="img-circle" alt="User Image">
+                                <img src="<?php echo base_url(); ?>assets/dist/img/avatar5.png" class="img-circle" alt="User Image">
                                 <p>
                                     Ari Aryansyah - Pemilik TokoBaju
                                     <small>03 November 2001</small>
