@@ -47,7 +47,7 @@
           </span>
         </a>
         <ul class="treeview-menu">
-          <li><a href="<?php echo base_url() ?>index.php/ct_data_kelas/index"><i class="fa fa-circle-o"></i> Data Buku</a></li>
+          <li><a href="<?php echo base_url() ?>index.php/ct_buku/index"><i class="fa fa-circle-o"></i> Data Buku</a></li>
           <li><a href="<?php echo base_url() ?>index.php/ct_data_kelas/index"><i class="fa fa-circle-o"></i> Data Detail Buku</a></li>
         </ul>
       </li>
